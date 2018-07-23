@@ -4,7 +4,7 @@
 	<title>Sample ReDesign</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 </head>
 <body>
 
@@ -42,12 +42,12 @@
 <header class="header ">
   <div class="overlay"></div>
    <div class="container">
-   	  <div class="description ">
-  	<h1>
-  		SAMRAT INVESTMENTS
+   	  <div class="description">
+  	<h1 >
+		<h1 class="wow pulse">SAMRAT INVESTMENTS</h1>
   		<p>
 			We provide you financial service, investment services for individual and businesses, Funding, Financial Consultancy for individual and business and Private Venture.</p>
-  		<button class="btn btn-outline-secondary btn-lg">See more</button>
+  		<button class="btn btn-outline-secondary btn-lg wow zoomInLeft">See more</button>
   	</h1>
   </div>
    </div>
@@ -57,7 +57,7 @@
 <!-- about section -->
 <div class="about" id="about">
 	<div class="container">
-	  <h1 class="text-center">About Us</h1>
+	  <h1 class="text-center wow zoomInLeft">About Us</h1>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<img src="images/companyname.jpg" class="img-fluid">
@@ -74,7 +74,7 @@
 </div>
 
 <div class="portfolio" id="portfolio">
-     <h1 class="text-center">Business</h1>
+     <h1 class="text-center wow zoomInLeft">Business</h1>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
@@ -114,7 +114,7 @@
 <!-- Posts section -->
 <div class="blog" id="blog">
 	<div class="container">
-	<h1 class="text-center">Blog</h1>
+	<h1 class="text-center wow zoomInLeft">Blog</h1>
 		<div class="row">
 			<div class="col-md-4 col-lg-4 col-sm-12">
 				<div class="card">
@@ -180,7 +180,7 @@
 <!-- Team section -->
 <div class="team" id="team">
 	<div class="container">
-	   <h1 class="text-center">Our Team</h1>
+	   <h1 class="text-center wow zoomInLeft">Our Team</h1>
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-12 item">
 				<img src="images/person.jpg" class="img-fluid" alt="team">
@@ -216,7 +216,7 @@
 	<div class="container">
 		<form>
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12">
+				<div class="col-lg-4 col-md-4 col-sm-12 wow zoomInLeft">
 				  <h1>Get in Touch</h1>	
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-12 right">
@@ -276,7 +276,11 @@
   </footer>
 <!-- add Javasscript file from js file -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/main.js'></script>
 
 </body>
